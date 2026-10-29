@@ -1,0 +1,23 @@
+name: Veröffentlichen
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  deploy:
+    # Läuft erst, wenn die Repository-Variable FIREBASE_PROJECT_ID gesetzt ist
+    if: ${{ vars.FIREBASE_PROJECT_ID != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm test
+      - name: Hosting und Sicherheitsregeln veröffentlichen
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: |
+          echo "$GOOGLE_APPLICATION_CREDENTIALS_JSON" > "$RUNNER_TEMP/sa.json"
+          export GOOGLE_APPLICATION_CREDENTIALS="$RUNNER_TEMP/sa.json"
+          npx --yes firebase-tools@13 deploy --only hosting,firestore:rules --project "${{ vars.FIREBASE_PROJECT_ID }}" --non-interactive

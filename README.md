@@ -23,20 +23,38 @@ Ohne Firebase-Konfiguration speichert die App nur im Browser.
 
 ## Firebase einrichten (zum Teilen in der Familie)
 
-1. Auf <https://console.firebase.google.com> ein Projekt anlegen. Für den Bring!-Import ist der Blaze-Tarif nötig (Cloud Function). Bei Familiennutzung bleibt er im kostenlosen Kontingent, ein Budget-Alarm von 1 € ist trotzdem empfehlenswert.
+Der kostenlose **Spark-Tarif** reicht für alles außer dem Bring!-Import.
+
+1. Auf <https://console.firebase.google.com> ein Projekt anlegen.
 2. **Authentication** → Anbieter **Google** aktivieren.
-3. **Firestore Database** anlegen (Region `europe-west3`, Produktionsmodus).
-4. Projekteinstellungen → **Web-App hinzufügen** und die Konfiguration in `src/firebase-config.js` eintragen.
-5. Firebase-CLI installieren und veröffentlichen:
+3. **Firestore Database** anlegen (Standort `europe-west3`, Produktionsmodus).
+4. Projekteinstellungen → **Web-App hinzufügen**, die Konfiguration in `src/firebase-config.js` und die Projekt-ID in `.firebaserc` eintragen.
+5. Veröffentlichen (Hosting und Sicherheitsregeln aus `firestore.rules`), entweder automatisch per GitHub Actions (siehe unten) oder lokal:
    ```bash
-   npm install -g firebase-tools
-   firebase login
-   firebase use --add          # Projekt auswählen
-   (cd functions && npm install)
-   firebase deploy             # Sicherheitsregeln, Hosting, Cloud Function
+   npx firebase-tools login
+   npx firebase-tools deploy --only hosting,firestore:rules
    ```
-6. Die angezeigte Adresse (`https://<projekt>.web.app`) in Chrome auf dem Android-Handy öffnen → Menü → **Zum Startbildschirm hinzufügen**.
+6. Die Adresse `https://<projekt-id>.web.app` in Chrome auf dem Android-Handy öffnen → Menü → **Zum Startbildschirm hinzufügen**.
 7. Die erste Person legt einen Haushalt an. Die anderen melden sich an und treten mit dem Einladungscode bei (zu finden unter „Mehr“).
+
+### Automatisch veröffentlichen (GitHub Actions)
+
+`.github/workflows/deploy.yml` veröffentlicht bei jedem Push auf `main` Hosting und Sicherheitsregeln. Einmalig nötig:
+
+- In der Firebase-Konsole: Projekteinstellungen → Dienstkonten → „Neuen privaten Schlüssel generieren“ (JSON-Datei).
+- In der Google-Cloud-Konsole (IAM) diesem Dienstkonto die Rollen *Firebase Hosting Admin*, *Firebase Rules Admin* und *Service Usage Consumer* geben.
+- Im GitHub-Repository unter Settings → Secrets and variables → Actions das Secret `FIREBASE_SERVICE_ACCOUNT` (Inhalt der JSON-Datei) und die Variable `FIREBASE_PROJECT_ID` anlegen.
+
+Solange die Variable `FIREBASE_PROJECT_ID` fehlt, wird der Schritt übersprungen.
+
+### Bring!-Import (Blaze-Tarif)
+
+Der Bring!-Import braucht eine Cloud Function und damit den Blaze-Tarif. Bei Familiennutzung bleibt er im kostenlosen Kontingent, ein Budget-Alarm von 1 € ist trotzdem empfehlenswert. Nach dem Wechsel:
+
+```bash
+(cd functions && npm install)
+npx firebase-tools deploy --config firebase.blaze.json
+```
 
 ## Projektstruktur
 
@@ -47,7 +65,7 @@ Ohne Firebase-Konfiguration speichert die App nur im Browser.
 | `src/store.js` | Datenhaltung: `LocalStore` (Browser) und `FirebaseStore` (Firestore, Echtzeit) |
 | `src/app.js` | Oberfläche (Vanilla JS, ohne Build-Schritt) |
 | `src/data/gerichte.json` | Startkatalog: 76 Gerichte mit Kategorien, Merkmalen und Zutaten für 6 Portionen |
-| `functions/` | Cloud Function `bring`: Rezeptseite für den Bring!-Import |
+| `functions/`, `firebase.blaze.json` | Cloud Function `bring` für den Bring!-Import (nur Blaze-Tarif) |
 | `firestore.rules` | Zugriff nur für Mitglieder des eigenen Haushalts |
 | `docs/architektur.md` | Architektur und Designentscheidungen |
 | `tests/` | Unit-Tests (`node --test`) |

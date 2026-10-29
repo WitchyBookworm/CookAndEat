@@ -13,7 +13,8 @@
       "docs/**",
       "package.json",
       "README.md",
-      "functions/**"
+      "functions/**",
+      "firebase.blaze.json"
     ],
     "headers": [
       {
@@ -25,21 +26,6 @@
           }
         ]
       }
-    ],
-    "rewrites": [
-      {
-        "source": "/bring/**",
-        "function": {
-          "functionId": "bring",
-          "region": "europe-west3"
-        }
-      }
     ]
-  },
-  "functions": [
-    {
-      "source": "functions",
-      "codebase": "default"
-    }
-  ]
+  }
 }

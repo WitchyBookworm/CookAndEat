@@ -421,6 +421,12 @@ const AKTIONEN = {
     if (!offen.length) return toast('Nichts mehr offen');
     el.disabled = true;
     const seite = await store.bringExport(`Einkauf ${datumLang(liste.von)}`, offen);
+    // Ohne Cloud Function (kostenloser Spark-Tarif) gibt es die Seite nicht
+    const erreichbar = await fetch(seite, { method: 'HEAD' }).then((r) => r.ok).catch(() => false);
+    if (!erreichbar) {
+      el.disabled = false;
+      return toast('Bring!-Import ist erst im Firebase-Blaze-Tarif verfügbar (siehe README)');
+    }
     const q = new URLSearchParams({ url: seite, source: 'web', baseQuantity: '1', requestedQuantity: '1' });
     location.href = `https://api.getbring.com/rest/bringrecipes/deeplink?${q}`;
   },
