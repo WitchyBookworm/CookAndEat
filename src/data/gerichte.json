@@ -1,0 +1,4082 @@
+[
+ {
+  "id": 1,
+  "name": "Brokkoli-Karfiol-Auflauf",
+  "varianten": [],
+  "kategorien": [
+   "Veggie"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-10",
+  "zutaten": [
+   {
+    "name": "Brokkoli",
+    "menge": 600,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Karfiol",
+    "menge": 600,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Schlagobers",
+    "menge": 250,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Reibkäse",
+    "menge": 200,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Eier",
+    "menge": 4,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Kartoffeln",
+    "menge": 800,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "name": "Kartoffeltascherl mit Spinat und Ei",
+  "varianten": [],
+  "kategorien": [
+   "Veggie",
+   "Kartoffel"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-10",
+  "zutaten": [
+   {
+    "name": "Kartoffeln (mehlig)",
+    "menge": 1200,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Mehl",
+    "menge": 300,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Eier",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Blattspinat",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Tiefkühl"
+   },
+   {
+    "name": "Topfen",
+    "menge": 200,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Eier",
+    "menge": 6,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "name": "Nudeln mit Käsesauce und Erbsen",
+  "varianten": [],
+  "kategorien": [
+   "Veggie",
+   "Nudeln"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-10",
+  "zutaten": [
+   {
+    "name": "Nudeln",
+    "menge": 750,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Erbsen",
+    "menge": 300,
+    "einheit": "g",
+    "abteilung": "Tiefkühl"
+   },
+   {
+    "name": "Schlagobers",
+    "menge": 250,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Reibkäse",
+    "menge": 250,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Milch",
+    "menge": 300,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "name": "Risotto",
+  "varianten": [],
+  "kategorien": [
+   "Veggie",
+   "Reis"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-10",
+  "zutaten": [
+   {
+    "name": "Risottoreis",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Weißwein",
+    "menge": 250,
+    "einheit": "ml",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Gemüsebrühe",
+    "menge": 1.5,
+    "einheit": "l",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Parmesan",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Champignons",
+    "menge": 250,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Butter",
+    "menge": 50,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "name": "Kärntner Kasnudeln",
+  "varianten": [],
+  "kategorien": [
+   "Veggie",
+   "Nudeln"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-10",
+  "zutaten": [
+   {
+    "name": "Mehl",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Eier",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Topfen",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Kartoffeln (mehlig)",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Minze",
+    "menge": 1,
+    "einheit": "Bund",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Kerbel",
+    "menge": 1,
+    "einheit": "Bund",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Butter",
+    "menge": 125,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "name": "Knödel mit Champignons",
+  "varianten": [],
+  "kategorien": [
+   "Veggie"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-10",
+  "zutaten": [
+   {
+    "name": "Knödelbrot-Semmeln (300 g)",
+    "menge": 10,
+    "einheit": "Stk",
+    "abteilung": "Brot & Gebäck"
+   },
+   {
+    "name": "Milch",
+    "menge": 300,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Eier",
+    "menge": 4,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Champignons",
+    "menge": 600,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Schlagobers",
+    "menge": 250,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Petersilie",
+    "menge": 1,
+    "einheit": "Bund",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "name": "Gemüsereis",
+  "varianten": [],
+  "kategorien": [
+   "Veggie",
+   "Reis"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-10",
+  "zutaten": [
+   {
+    "name": "Reis",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Paprika rot",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Karotten",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zucchini",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Erbsen",
+    "menge": 300,
+    "einheit": "g",
+    "abteilung": "Tiefkühl"
+   },
+   {
+    "name": "Mais",
+    "menge": 200,
+    "einheit": "g",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 8,
+  "name": "Kartoffelpuffer mit Minzdip",
+  "varianten": [],
+  "kategorien": [
+   "Veggie",
+   "Kartoffel"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-10",
+  "zutaten": [
+   {
+    "name": "Kartoffeln",
+    "menge": 1500,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Eier",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Mehl",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Joghurt",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Minze",
+    "menge": 1,
+    "einheit": "Bund",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Gurke",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "name": "Kartoffelpuffer mit Zucchinipüree und Preiselbeeren",
+  "varianten": [],
+  "kategorien": [
+   "Veggie",
+   "Kartoffel"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-05",
+  "zutaten": [
+   {
+    "name": "Kartoffeln",
+    "menge": 1500,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Eier",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Mehl",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zucchini",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Preiselbeeren",
+    "menge": 200,
+    "einheit": "g",
+    "abteilung": "Konserven & Saucen"
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "name": "Paprikaspätzle mit grünem Salat",
+  "varianten": [],
+  "kategorien": [
+   "Veggie",
+   "Nudeln"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-10",
+  "zutaten": [
+   {
+    "name": "Mehl",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Eier",
+    "menge": 5,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Paprika rot",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Paprika gelb",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Sauerrahm",
+    "menge": 250,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Häuptelsalat",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "name": "Käsespätzle (mit grünem Salat)",
+  "varianten": [],
+  "kategorien": [
+   "Veggie",
+   "Nudeln",
+   "Großmenge"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Mehl",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Eier",
+    "menge": 6,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Bergkäse",
+    "menge": 300,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Emmentaler",
+    "menge": 150,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Häuptelsalat",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 12,
+  "name": "Ratatouille mit Reis",
+  "varianten": [],
+  "kategorien": [
+   "Veggie",
+   "Reis"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Reis",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Zucchini",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Melanzani",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Paprika",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "gehackte Tomaten (400 g)",
+    "menge": 1,
+    "einheit": "Dose",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Knoblauch-Zehen",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 13,
+  "name": "Ratatouille mit Spätzle",
+  "varianten": [],
+  "kategorien": [
+   "Veggie",
+   "Nudeln"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-03",
+  "zutaten": [
+   {
+    "name": "Mehl",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Eier",
+    "menge": 5,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Zucchini",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Melanzani",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Paprika",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "gehackte Tomaten (400 g)",
+    "menge": 1,
+    "einheit": "Dose",
+    "abteilung": "Konserven & Saucen"
+   }
+  ]
+ },
+ {
+  "id": 14,
+  "name": "Kartoffel-Karfiol-Püree",
+  "varianten": [],
+  "kategorien": [
+   "Veggie",
+   "Kartoffel"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-07",
+  "zutaten": [
+   {
+    "name": "Kartoffeln",
+    "menge": 1500,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Karfiol",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Milch",
+    "menge": 300,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Butter",
+    "menge": 60,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Eier",
+    "menge": 6,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 15,
+  "name": "Spinatquiche mit grünem Salat",
+  "varianten": [],
+  "kategorien": [
+   "Veggie"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Mürbteig",
+    "menge": 1,
+    "einheit": "Pkg",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Blattspinat",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Tiefkühl"
+   },
+   {
+    "name": "Eier",
+    "menge": 4,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Schlagobers",
+    "menge": 250,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Feta",
+    "menge": 200,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Häuptelsalat",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 16,
+  "name": "Ofengemüse (mit Feta)",
+  "varianten": [],
+  "kategorien": [
+   "Veggie"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Kartoffeln",
+    "menge": 1500,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zucchini",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Paprika",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Karotten",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "rote Zwiebel",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Feta",
+    "menge": 400,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 17,
+  "name": "Gnocchi",
+  "varianten": [],
+  "kategorien": [
+   "Veggie",
+   "Nudeln"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-06",
+  "zutaten": [
+   {
+    "name": "Gnocchi",
+    "menge": 1000,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "gehackte Tomaten (400 g)",
+    "menge": 2,
+    "einheit": "Dose",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Mozzarella",
+    "menge": 125,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Parmesan",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Basilikum",
+    "menge": 1,
+    "einheit": "Bund",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 18,
+  "name": "Gemüse mit Joghurt-Minz-Dip",
+  "varianten": [],
+  "kategorien": [
+   "Veggie"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-05",
+  "zutaten": [
+   {
+    "name": "Kartoffeln",
+    "menge": 1000,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zucchini",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Karotten",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Brokkoli",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Joghurt",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Minze",
+    "menge": 1,
+    "einheit": "Bund",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 19,
+  "name": "Pikante Kirschtomaten-Tarte",
+  "varianten": [],
+  "kategorien": [
+   "Veggie"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-05",
+  "zutaten": [
+   {
+    "name": "Blätterteig",
+    "menge": 1,
+    "einheit": "Pkg",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Kirschtomaten",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Frischkäse",
+    "menge": 200,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Reibkäse",
+    "menge": 150,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Eier",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Basilikum",
+    "menge": 1,
+    "einheit": "Bund",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 20,
+  "name": "Bratkartoffeln mit Spiegelei",
+  "varianten": [
+   "mit Spinat",
+   "mit Würstel"
+  ],
+  "kategorien": [
+   "Veggie",
+   "Kartoffel"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-05",
+  "zutaten": [
+   {
+    "name": "Kartoffeln (speckig)",
+    "menge": 1500,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Eier",
+    "menge": 12,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Häuptelsalat",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 21,
+  "name": "Spaghetti veggie",
+  "varianten": [],
+  "kategorien": [
+   "Veggie",
+   "Nudeln"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-05",
+  "zutaten": [
+   {
+    "name": "Spaghetti",
+    "menge": 750,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Zucchini",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Paprika",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Champignons",
+    "menge": 250,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "gehackte Tomaten (400 g)",
+    "menge": 2,
+    "einheit": "Dose",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Parmesan",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 22,
+  "name": "Kartoffelbällchen",
+  "varianten": [],
+  "kategorien": [
+   "Veggie",
+   "Kartoffel"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-05",
+  "zutaten": [
+   {
+    "name": "Kartoffeln (mehlig)",
+    "menge": 1500,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Eier",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Semmelbrösel",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Reibkäse",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Häuptelsalat",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 23,
+  "name": "Gemüselaibchen mit Joghurtdip",
+  "varianten": [],
+  "kategorien": [
+   "Veggie"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Karotten",
+    "menge": 300,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zucchini",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Haferflocken",
+    "menge": 200,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Eier",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Semmelbrösel",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Reibkäse",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Joghurt",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Kartoffeln",
+    "menge": 800,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 24,
+  "name": "Grillgemüse mit Grillkäse",
+  "varianten": [],
+  "kategorien": [
+   "Veggie"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-06",
+  "zutaten": [
+   {
+    "name": "Zucchini",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Melanzani",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Paprika",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Champignons",
+    "menge": 250,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Grillkäse",
+    "menge": 600,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Baguette",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Brot & Gebäck"
+   }
+  ]
+ },
+ {
+  "id": 25,
+  "name": "Chili sin Carne",
+  "varianten": [],
+  "kategorien": [
+   "Veggie",
+   "Großmenge"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-06",
+  "zutaten": [
+   {
+    "name": "Kidneybohnen (400 g)",
+    "menge": 2,
+    "einheit": "Dose",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Mais (300 g)",
+    "menge": 1,
+    "einheit": "Dose",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "gehackte Tomaten (400 g)",
+    "menge": 2,
+    "einheit": "Dose",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Paprika",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Linsen rot",
+    "menge": 200,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Brot",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Brot & Gebäck"
+   }
+  ]
+ },
+ {
+  "id": 26,
+  "name": "Champignonsauce mit Reis oder Nudeln",
+  "varianten": [],
+  "kategorien": [
+   "Veggie",
+   "Reis",
+   "Nudeln"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-04",
+  "zutaten": [
+   {
+    "name": "Reis",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Champignons",
+    "menge": 800,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Schlagobers",
+    "menge": 250,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Petersilie",
+    "menge": 1,
+    "einheit": "Bund",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 27,
+  "name": "Knödel dreierlei",
+  "varianten": [],
+  "kategorien": [
+   "Veggie"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-07",
+  "zutaten": [
+   {
+    "name": "Knödel (Spinat/Käse/Speck, TK)",
+    "menge": 9,
+    "einheit": "Stk",
+    "abteilung": "Tiefkühl"
+   },
+   {
+    "name": "Krautsalat-Kopf",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Parmesan",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Butter",
+    "menge": 80,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 28,
+  "name": "Tortellini",
+  "varianten": [],
+  "kategorien": [
+   "Nudeln"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-10",
+  "zutaten": [
+   {
+    "name": "Tortellini",
+    "menge": 1000,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Schlagobers",
+    "menge": 250,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Schinken",
+    "menge": 150,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Parmesan",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Erbsen",
+    "menge": 300,
+    "einheit": "g",
+    "abteilung": "Tiefkühl"
+   }
+  ]
+ },
+ {
+  "id": 29,
+  "name": "Kousa Mahshi (gefüllte Zucchini mit Fleisch)",
+  "varianten": [],
+  "kategorien": [
+   "Reis"
+  ],
+  "vegetarisch": false,
+  "arabisch": true,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-05",
+  "zutaten": [
+   {
+    "name": "Zucchini (rund/klein)",
+    "menge": 12,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Faschiertes (Rind/Lamm)",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Reis",
+    "menge": 250,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "gehackte Tomaten (400 g)",
+    "menge": 2,
+    "einheit": "Dose",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Knoblauch-Zehen",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Minze",
+    "menge": 1,
+    "einheit": "Bund",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 30,
+  "name": "Pizza",
+  "varianten": [],
+  "kategorien": [
+   "Großmenge"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-10",
+  "zutaten": [
+   {
+    "name": "Mehl",
+    "menge": 1000,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Trockengerm",
+    "menge": 2,
+    "einheit": "Pkg",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "passierte Tomaten (500 g)",
+    "menge": 2,
+    "einheit": "Dose",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Mozzarella",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Schinken",
+    "menge": 200,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Champignons",
+    "menge": 250,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Salami",
+    "menge": 200,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 31,
+  "name": "Suppe, Topfennockerl mit Sauce",
+  "varianten": [],
+  "kategorien": [
+   "Veggie"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": true,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-10",
+  "zutaten": [
+   {
+    "name": "Gemüsebrühe",
+    "menge": 1,
+    "einheit": "l",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Topfen",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Eier",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Grieß",
+    "menge": 150,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Semmelbrösel",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Erdbeeren / Beeren TK",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Tiefkühl"
+   },
+   {
+    "name": "Butter",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 32,
+  "name": "Suppe, Kaiserschmarrn mit Apfelmus",
+  "varianten": [
+   "mit Zucchinicremesuppe"
+  ],
+  "kategorien": [
+   "Veggie"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": true,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-09",
+  "zutaten": [
+   {
+    "name": "Gemüsebrühe",
+    "menge": 1,
+    "einheit": "l",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Mehl",
+    "menge": 400,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Eier",
+    "menge": 8,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Milch",
+    "menge": 750,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Rosinen",
+    "menge": 80,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Apfelmus (700 g)",
+    "menge": 1,
+    "einheit": "Glas",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Butter",
+    "menge": 80,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 33,
+  "name": "Suppe, Germknödel",
+  "varianten": [],
+  "kategorien": [
+   "Veggie"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": true,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-10",
+  "zutaten": [
+   {
+    "name": "Gemüsebrühe",
+    "menge": 1,
+    "einheit": "l",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Germknödel (TK)",
+    "menge": 6,
+    "einheit": "Stk",
+    "abteilung": "Tiefkühl"
+   },
+   {
+    "name": "Mohn gemahlen",
+    "menge": 150,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Butter",
+    "menge": 150,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Staubzucker",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   }
+  ]
+ },
+ {
+  "id": 34,
+  "name": "Suppe, Buchteln mit Marillenmarmelade",
+  "varianten": [],
+  "kategorien": [
+   "Veggie"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": true,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-09",
+  "zutaten": [
+   {
+    "name": "Gemüsebrühe",
+    "menge": 1,
+    "einheit": "l",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Mehl",
+    "menge": 600,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Trockengerm",
+    "menge": 1,
+    "einheit": "Pkg",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Milch",
+    "menge": 250,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Eier",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Butter",
+    "menge": 120,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Marillenmarmelade (450 g)",
+    "menge": 1,
+    "einheit": "Glas",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Vanillesauce",
+    "menge": 500,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 35,
+  "name": "Frittatensuppe, Mohnnudeln",
+  "varianten": [],
+  "kategorien": [
+   "Nudeln"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": true,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Rindsuppe",
+    "menge": 1,
+    "einheit": "l",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Mehl",
+    "menge": 150,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Eier",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Milch",
+    "menge": 250,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Bandnudeln",
+    "menge": 750,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Mohn gemahlen",
+    "menge": 150,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Butter",
+    "menge": 120,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 36,
+  "name": "Grießnockerlsuppe, Topfennudeln mit Zwetschkenröster",
+  "varianten": [],
+  "kategorien": [
+   "Nudeln"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": true,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Rindsuppe",
+    "menge": 1,
+    "einheit": "l",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Grieß",
+    "menge": 150,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Eier",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Bandnudeln",
+    "menge": 750,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Topfen",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Butter",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Zwetschken (oder TK)",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 37,
+  "name": "Kürbiscremesuppe, Powidltascherl",
+  "varianten": [],
+  "kategorien": [
+   "Veggie"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": true,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Hokkaido-Kürbis",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Schlagobers",
+    "menge": 250,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Kartoffeln (mehlig)",
+    "menge": 1200,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Mehl",
+    "menge": 300,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Eier",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Powidl (450 g)",
+    "menge": 1,
+    "einheit": "Glas",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Semmelbrösel",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Butter",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 38,
+  "name": "Klare Gemüsesuppe, Nussnudeln",
+  "varianten": [],
+  "kategorien": [
+   "Nudeln"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": true,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Karotten",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Sellerie",
+    "menge": 0.5,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Lauch",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Bandnudeln",
+    "menge": 750,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Walnüsse gemahlen",
+    "menge": 150,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Butter",
+    "menge": 120,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 39,
+  "name": "Forelle (Müllerin) mit Petersilkartoffeln",
+  "varianten": [],
+  "kategorien": [
+   "Fisch"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Forellen",
+    "menge": 6,
+    "einheit": "Stk",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Kartoffeln (speckig)",
+    "menge": 1200,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Petersilie",
+    "menge": 1,
+    "einheit": "Bund",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Butter",
+    "menge": 150,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Zitronen",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 40,
+  "name": "Fischstäbchen mit Salat",
+  "varianten": [],
+  "kategorien": [
+   "Fisch"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-10",
+  "zutaten": [
+   {
+    "name": "Fischstäbchen",
+    "menge": 30,
+    "einheit": "Stk",
+    "abteilung": "Tiefkühl"
+   },
+   {
+    "name": "Häuptelsalat",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Gurke",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Kartoffeln",
+    "menge": 1000,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 41,
+  "name": "Lachs",
+  "varianten": [
+   "mit Nudeln",
+   "mit Ofengemüse"
+  ],
+  "kategorien": [
+   "Fisch"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Lachsfilet",
+    "menge": 900,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Nudeln",
+    "menge": 750,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Schlagobers",
+    "menge": 250,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Zitrone",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Dill",
+    "menge": 1,
+    "einheit": "Bund",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Blattspinat",
+    "menge": 250,
+    "einheit": "g",
+    "abteilung": "Tiefkühl"
+   }
+  ]
+ },
+ {
+  "id": 42,
+  "name": "Pangasiusfilet mit Spinatkartoffeln (an Ratatouille überbacken)",
+  "varianten": [],
+  "kategorien": [
+   "Fisch"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Pangasiusfilet",
+    "menge": 900,
+    "einheit": "g",
+    "abteilung": "Tiefkühl"
+   },
+   {
+    "name": "Kartoffeln",
+    "menge": 1200,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Blattspinat",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Tiefkühl"
+   },
+   {
+    "name": "Zucchini",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Melanzani",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "gehackte Tomaten (400 g)",
+    "menge": 1,
+    "einheit": "Dose",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Reibkäse",
+    "menge": 150,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 43,
+  "name": "Gebackener Fisch",
+  "varianten": [
+   "mit Reis",
+   "mit Erdäpfelsalat"
+  ],
+  "kategorien": [
+   "Fisch"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Fischfilet (Seelachs)",
+    "menge": 1000,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Eier",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Semmelbrösel",
+    "menge": 200,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Mehl",
+    "menge": 150,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Kartoffeln (speckig)",
+    "menge": 1200,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zitronen",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 44,
+  "name": "Kebab mit arabischem Brot",
+  "varianten": [
+   "mit Taboulé",
+   "mit Reis"
+  ],
+  "kategorien": [
+   "Großmenge"
+  ],
+  "vegetarisch": false,
+  "arabisch": true,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-10",
+  "zutaten": [
+   {
+    "name": "Kebabfleisch (Hähnchen/Rind)",
+    "menge": 1200,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Fladenbrot arabisch",
+    "menge": 6,
+    "einheit": "Stk",
+    "abteilung": "Brot & Gebäck"
+   },
+   {
+    "name": "Bulgur",
+    "menge": 250,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Petersilie",
+    "menge": 2,
+    "einheit": "Bund",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Tomaten",
+    "menge": 4,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Gurke",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zitronen",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Joghurt",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 45,
+  "name": "Mudjadarra",
+  "varianten": [],
+  "kategorien": [
+   "Veggie",
+   "Reis",
+   "Großmenge"
+  ],
+  "vegetarisch": true,
+  "arabisch": true,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-10",
+  "zutaten": [
+   {
+    "name": "Linsen braun",
+    "menge": 400,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Reis",
+    "menge": 300,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 4,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Joghurt",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Gurke",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 46,
+  "name": "Lahmacun mit Joghurt (und Salat)",
+  "varianten": [],
+  "kategorien": [
+   "Großmenge"
+  ],
+  "vegetarisch": false,
+  "arabisch": true,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-10",
+  "zutaten": [
+   {
+    "name": "Mehl",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Trockengerm",
+    "menge": 1,
+    "einheit": "Pkg",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Faschiertes Rind",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Tomaten",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Paprika rot",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Petersilie",
+    "menge": 1,
+    "einheit": "Bund",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Joghurt",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Häuptelsalat",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 47,
+  "name": "Maqluba mit Hähnchen und Melanzani",
+  "varianten": [],
+  "kategorien": [
+   "Reis"
+  ],
+  "vegetarisch": false,
+  "arabisch": true,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Hähnchenschenkel",
+    "menge": 1200,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Melanzani",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Reis",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Tomaten",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Pinienkerne",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Joghurt",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 48,
+  "name": "Dawood Basha (Fleischbällchen in Tomatensauce) mit Reis",
+  "varianten": [],
+  "kategorien": [
+   "Reis"
+  ],
+  "vegetarisch": false,
+  "arabisch": true,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Faschiertes Rind",
+    "menge": 800,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "passierte Tomaten (500 g)",
+    "menge": 2,
+    "einheit": "Dose",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Reis",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Fadennudeln",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Pinienkerne",
+    "menge": 50,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   }
+  ]
+ },
+ {
+  "id": 49,
+  "name": "Riz bi Djej (Hühnerreis mit Nüssen)",
+  "varianten": [],
+  "kategorien": [
+   "Reis"
+  ],
+  "vegetarisch": false,
+  "arabisch": true,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Hähnchenschenkel",
+    "menge": 1200,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Reis",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Faschiertes Rind",
+    "menge": 400,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Mandeln",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Pinienkerne",
+    "menge": 50,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 50,
+  "name": "Shakriyeh (Rindfleisch in Joghurtsauce) mit Reis",
+  "varianten": [],
+  "kategorien": [
+   "Reis"
+  ],
+  "vegetarisch": false,
+  "arabisch": true,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Rindfleisch (Schulter)",
+    "menge": 1000,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Joghurt",
+    "menge": 1000,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Ei",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Maisstärke",
+    "menge": 30,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Reis",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Fadennudeln",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 51,
+  "name": "Kötbullar mit Preiselbeeren",
+  "varianten": [],
+  "kategorien": [
+   "Großmenge",
+   "Kartoffel"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-10",
+  "zutaten": [
+   {
+    "name": "Faschiertes gemischt",
+    "menge": 1000,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Semmelbrösel",
+    "menge": 80,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Ei",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Schlagobers",
+    "menge": 250,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Kartoffeln",
+    "menge": 1500,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Preiselbeeren (400 g)",
+    "menge": 1,
+    "einheit": "Glas",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 52,
+  "name": "Faschierte Laibchen mit Püree",
+  "varianten": [],
+  "kategorien": [
+   "Großmenge",
+   "Kartoffel"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Faschiertes gemischt",
+    "menge": 1000,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Semmeln",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Brot & Gebäck"
+   },
+   {
+    "name": "Eier",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Semmelbrösel",
+    "menge": 150,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Kartoffeln (mehlig)",
+    "menge": 1500,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Milch",
+    "menge": 300,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Butter",
+    "menge": 80,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 53,
+  "name": "Paprikageschnetzeltes mit Hörnchen",
+  "varianten": [],
+  "kategorien": [
+   "Großmenge",
+   "Nudeln"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-05",
+  "zutaten": [
+   {
+    "name": "Schweinsgeschnetzeltes",
+    "menge": 1000,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Paprika",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Sauerrahm",
+    "menge": 250,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Hörnchennudeln",
+    "menge": 750,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Paprikapulver",
+    "menge": 2,
+    "einheit": "EL",
+    "abteilung": "Trockenwaren"
+   }
+  ]
+ },
+ {
+  "id": 54,
+  "name": "Burger",
+  "varianten": [],
+  "kategorien": [
+   "Großmenge"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-09",
+  "zutaten": [
+   {
+    "name": "Faschiertes Rind",
+    "menge": 1000,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Burgerbrötchen",
+    "menge": 6,
+    "einheit": "Stk",
+    "abteilung": "Brot & Gebäck"
+   },
+   {
+    "name": "Käsescheiben",
+    "menge": 6,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Tomaten",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Eisbergsalat",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Pommes",
+    "menge": 1000,
+    "einheit": "g",
+    "abteilung": "Tiefkühl"
+   }
+  ]
+ },
+ {
+  "id": 55,
+  "name": "Brathuhn mit Semmelfülle",
+  "varianten": [],
+  "kategorien": [
+   "Großmenge"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-07",
+  "zutaten": [
+   {
+    "name": "Brathuhn (je ca. 1,2 kg)",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Semmeln",
+    "menge": 6,
+    "einheit": "Stk",
+    "abteilung": "Brot & Gebäck"
+   },
+   {
+    "name": "Milch",
+    "menge": 250,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Eier",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Petersilie",
+    "menge": 1,
+    "einheit": "Bund",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Kartoffeln",
+    "menge": 1500,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Häuptelsalat",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 56,
+  "name": "Gulasch",
+  "varianten": [
+   "mit Knödel",
+   "mit Nudeln"
+  ],
+  "kategorien": [
+   "Großmenge"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Rindsgulaschfleisch",
+    "menge": 1500,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 1500,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Paprikapulver edelsüß",
+    "menge": 4,
+    "einheit": "EL",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Tomatenmark",
+    "menge": 2,
+    "einheit": "EL",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Semmelknödel (Fertig)",
+    "menge": 12,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 57,
+  "name": "Chili con Carne mit Brot",
+  "varianten": [],
+  "kategorien": [
+   "Großmenge"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Faschiertes Rind",
+    "menge": 1000,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Kidneybohnen (400 g)",
+    "menge": 2,
+    "einheit": "Dose",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Mais (300 g)",
+    "menge": 1,
+    "einheit": "Dose",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "gehackte Tomaten (400 g)",
+    "menge": 2,
+    "einheit": "Dose",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Paprika",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Brot",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Brot & Gebäck"
+   }
+  ]
+ },
+ {
+  "id": 58,
+  "name": "Lasagne",
+  "varianten": [
+   "klassisch",
+   "Spinatlasagne (vegetarisch)"
+  ],
+  "kategorien": [
+   "Großmenge",
+   "Nudeln"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Faschiertes gemischt",
+    "menge": 1000,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "passierte Tomaten (500 g)",
+    "menge": 2,
+    "einheit": "Dose",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Lasagneblätter",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Milch",
+    "menge": 750,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Butter",
+    "menge": 60,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Reibkäse",
+    "menge": 250,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Karotten",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 59,
+  "name": "Butterchicken mit Reis und Fladenbrot",
+  "varianten": [],
+  "kategorien": [
+   "Großmenge",
+   "Reis"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Hähnchenbrust",
+    "menge": 1200,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Joghurt",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "passierte Tomaten (500 g)",
+    "menge": 1,
+    "einheit": "Dose",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Schlagobers",
+    "menge": 250,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Butter",
+    "menge": 80,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Basmatireis",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Fladenbrot",
+    "menge": 6,
+    "einheit": "Stk",
+    "abteilung": "Brot & Gebäck"
+   },
+   {
+    "name": "Ingwer",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 60,
+  "name": "Wiener Schnitzel mit Petersilkartoffeln",
+  "varianten": [],
+  "kategorien": [
+   "Großmenge",
+   "Kartoffel"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-05",
+  "zutaten": [
+   {
+    "name": "Schweinsschnitzel",
+    "menge": 1200,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Eier",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Semmelbrösel",
+    "menge": 250,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Mehl",
+    "menge": 150,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Kartoffeln (speckig)",
+    "menge": 1500,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Petersilie",
+    "menge": 1,
+    "einheit": "Bund",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zitronen",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 61,
+  "name": "Hühnereintopf mit Kartoffeln und Karotten",
+  "varianten": [],
+  "kategorien": [
+   "Großmenge",
+   "Kartoffel"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Hühnerkeulen",
+    "menge": 1200,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Kartoffeln",
+    "menge": 1500,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Karotten",
+    "menge": 6,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Sellerie",
+    "menge": 0.5,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Lauch",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Petersilie",
+    "menge": 1,
+    "einheit": "Bund",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 62,
+  "name": "Spaghetti Bolognese",
+  "varianten": [],
+  "kategorien": [
+   "Großmenge",
+   "Nudeln"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-05",
+  "zutaten": [
+   {
+    "name": "Faschiertes Rind",
+    "menge": 1000,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "passierte Tomaten (500 g)",
+    "menge": 2,
+    "einheit": "Dose",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Spaghetti",
+    "menge": 750,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Karotten",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Parmesan",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 63,
+  "name": "Burritos mit Reis",
+  "varianten": [],
+  "kategorien": [
+   "Reis"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-10",
+  "zutaten": [
+   {
+    "name": "Faschiertes Rind",
+    "menge": 800,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Tortillas",
+    "menge": 12,
+    "einheit": "Stk",
+    "abteilung": "Brot & Gebäck"
+   },
+   {
+    "name": "Kidneybohnen (400 g)",
+    "menge": 1,
+    "einheit": "Dose",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Mais (300 g)",
+    "menge": 1,
+    "einheit": "Dose",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Reis",
+    "menge": 400,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Reibkäse",
+    "menge": 200,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Sauerrahm",
+    "menge": 250,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Paprika",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 64,
+  "name": "Spaghetti Carbonara",
+  "varianten": [],
+  "kategorien": [
+   "Nudeln"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-10",
+  "zutaten": [
+   {
+    "name": "Spaghetti",
+    "menge": 750,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Speckwürfel",
+    "menge": 300,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Eier",
+    "menge": 5,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Parmesan",
+    "menge": 150,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 65,
+  "name": "Tiroler Gröstl mit Spiegelei",
+  "varianten": [],
+  "kategorien": [
+   "Kartoffel"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Kartoffeln (speckig)",
+    "menge": 1500,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Selchfleisch / Speck",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Eier",
+    "menge": 6,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 66,
+  "name": "Steak mit Pommes",
+  "varianten": [],
+  "kategorien": [
+   "Kartoffel"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-07",
+  "zutaten": [
+   {
+    "name": "Rindersteaks (à 200 g)",
+    "menge": 6,
+    "einheit": "Stk",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Pommes",
+    "menge": 1500,
+    "einheit": "g",
+    "abteilung": "Tiefkühl"
+   },
+   {
+    "name": "Häuptelsalat",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 67,
+  "name": "Letscho mit Reis",
+  "varianten": [],
+  "kategorien": [
+   "Reis"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-07",
+  "zutaten": [
+   {
+    "name": "Reis",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Paprika",
+    "menge": 4,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Tomaten",
+    "menge": 4,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Debreziner",
+    "menge": 6,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 68,
+  "name": "Karfiol mit Butter und Bröseln, Würstel",
+  "varianten": [],
+  "kategorien": [
+   "Kartoffel"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-06",
+  "zutaten": [
+   {
+    "name": "Karfiol",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Butter",
+    "menge": 150,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Semmelbrösel",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Frankfurter Würstel",
+    "menge": 12,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Kartoffeln",
+    "menge": 1200,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 69,
+  "name": "Asiapfanne mit Hühnchen und Brokkoli",
+  "varianten": [],
+  "kategorien": [
+   "Reis"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-04",
+  "zutaten": [
+   {
+    "name": "Hähnchenbrust",
+    "menge": 1000,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Brokkoli",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Karotten",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Paprika",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Sojasauce",
+    "menge": 150,
+    "einheit": "ml",
+    "abteilung": "Konserven & Saucen"
+   },
+   {
+    "name": "Reis",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   }
+  ]
+ },
+ {
+  "id": 70,
+  "name": "Naturschnitzel mit Reis und Champignonrahmsauce",
+  "varianten": [],
+  "kategorien": [
+   "Reis"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-05",
+  "zutaten": [
+   {
+    "name": "Schweinsschnitzel",
+    "menge": 1200,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Champignons",
+    "menge": 600,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Schlagobers",
+    "menge": 250,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Reis",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   }
+  ]
+ },
+ {
+  "id": 71,
+  "name": "Hühnerfrikassee mit Reis",
+  "varianten": [],
+  "kategorien": [
+   "Reis"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-06",
+  "zutaten": [
+   {
+    "name": "Hähnchenbrust",
+    "menge": 1200,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Champignons",
+    "menge": 250,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Erbsen",
+    "menge": 300,
+    "einheit": "g",
+    "abteilung": "Tiefkühl"
+   },
+   {
+    "name": "Karotten",
+    "menge": 2,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Schlagobers",
+    "menge": 250,
+    "einheit": "ml",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Reis",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   }
+  ]
+ },
+ {
+  "id": 72,
+  "name": "Kartoffelgulasch mit Würstel",
+  "varianten": [],
+  "kategorien": [
+   "Kartoffel"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "Kartoffeln (speckig)",
+    "menge": 1500,
+    "einheit": "g",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Frankfurter Würstel",
+    "menge": 6,
+    "einheit": "Stk",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 3,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Paprikapulver",
+    "menge": 2,
+    "einheit": "EL",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Tomatenmark",
+    "menge": 2,
+    "einheit": "EL",
+    "abteilung": "Konserven & Saucen"
+   }
+  ]
+ },
+ {
+  "id": 73,
+  "name": "Ofenkartoffeln mit Hühnerstreifen und Kräuterdip",
+  "varianten": [],
+  "kategorien": [
+   "Kartoffel"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": "2026-11",
+  "zutaten": [
+   {
+    "name": "große Kartoffeln (ca. 2 kg)",
+    "menge": 6,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Hähnchenbrust",
+    "menge": 800,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Sauerrahm",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   },
+   {
+    "name": "Schnittlauch",
+    "menge": 1,
+    "einheit": "Bund",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Petersilie",
+    "menge": 1,
+    "einheit": "Bund",
+    "abteilung": "Obst & Gemüse"
+   }
+  ]
+ },
+ {
+  "id": 74,
+  "name": "Risibisi mit Hühnchen",
+  "varianten": [],
+  "kategorien": [
+   "Reis"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": true,
+  "suess_mit_suppe": false,
+  "gesperrt": false,
+  "zuletzt_geplant": null,
+  "zutaten": [
+   {
+    "name": "Reis",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Erbsen",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Tiefkühl"
+   },
+   {
+    "name": "Hähnchenbrust",
+    "menge": 1000,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Zwiebel",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Parmesan",
+    "menge": 50,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 75,
+  "name": "Kürbisrisotto",
+  "varianten": [],
+  "kategorien": [
+   "Reis"
+  ],
+  "vegetarisch": true,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": true,
+  "zuletzt_geplant": null,
+  "zutaten": [
+   {
+    "name": "Risottoreis",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "Hokkaido-Kürbis",
+    "menge": 1,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Parmesan",
+    "menge": 100,
+    "einheit": "g",
+    "abteilung": "Kühlregal"
+   }
+  ]
+ },
+ {
+  "id": 76,
+  "name": "Gefüllte Paprika",
+  "varianten": [],
+  "kategorien": [
+   "Reis"
+  ],
+  "vegetarisch": false,
+  "arabisch": false,
+  "oesterreichisch": false,
+  "suess_mit_suppe": false,
+  "gesperrt": true,
+  "zuletzt_geplant": null,
+  "zutaten": [
+   {
+    "name": "Paprika",
+    "menge": 6,
+    "einheit": "Stk",
+    "abteilung": "Obst & Gemüse"
+   },
+   {
+    "name": "Faschiertes",
+    "menge": 500,
+    "einheit": "g",
+    "abteilung": "Fleisch & Fisch"
+   },
+   {
+    "name": "Reis",
+    "menge": 200,
+    "einheit": "g",
+    "abteilung": "Trockenwaren"
+   },
+   {
+    "name": "passierte Tomaten (500 g)",
+    "menge": 2,
+    "einheit": "Dose",
+    "abteilung": "Konserven & Saucen"
+   }
+  ]
+ }
+]

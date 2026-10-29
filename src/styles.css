@@ -1,0 +1,58 @@
+:root {
+  --bg: #ffffff; --fg: #1d2330; --muted: #5f6878; --linie: #dde2ea; --karte: #f5f7fb;
+  --primaer: #2f5597; --primaer-fg: #fff; --warn-bg: #fff4e0; --warn-fg: #7a4a00;
+  --veg: #2e7d32; --arab: #8e44ad; --at: #c62828; --suess: #b8860b;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #14171d; --fg: #e8ebf0; --muted: #a0a8b6; --linie: #2c323d; --karte: #1c2028; --primaer: #7aa2e8; --primaer-fg: #0d1320; --warn-bg: #3a2c12; --warn-fg: #ffd58a; --veg: #81c784; --arab: #ce93d8; --at: #ef9a9a; --suess: #f0c75e; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; font: 16px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); padding-bottom: 72px; }
+header { background: var(--primaer); color: var(--primaer-fg); padding: 10px 16px; }
+header h1 { margin: 0; font-size: 1.15rem; }
+main { padding: 12px 16px; max-width: 760px; margin: 0 auto; }
+h2 { font-size: 1.1rem; margin: 18px 0 8px; } h3 { font-size: 1rem; margin: 14px 0 6px; }
+button, select, input, textarea { font: inherit; color: inherit; }
+button { border: 1px solid var(--linie); background: var(--karte); border-radius: 8px; padding: 8px 12px; cursor: pointer; }
+button.primaer { background: var(--primaer); color: var(--primaer-fg); border-color: var(--primaer); }
+button.klein { padding: 3px 8px; font-size: .85rem; }
+input, select, textarea { border: 1px solid var(--linie); background: var(--bg); border-radius: 8px; padding: 8px; max-width: 100%; }
+textarea { width: 100%; font-family: ui-monospace, monospace; font-size: .85rem; }
+label { display: block; margin: 8px 0; }
+nav { position: fixed; bottom: 0; left: 0; right: 0; display: flex; background: var(--karte); border-top: 1px solid var(--linie); padding-bottom: env(safe-area-inset-bottom); }
+nav button { flex: 1; border: 0; border-radius: 0; background: none; display: flex; flex-direction: column; align-items: center; font-size: 1.2rem; padding: 6px 0; }
+nav button span { font-size: .7rem; }
+nav button[aria-current="page"] { color: var(--primaer); font-weight: 600; }
+.leiste { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.aktionen, .zeile, .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; align-items: center; }
+.zeile input { flex: 1; min-width: 0; }
+.chip { display: inline-flex; gap: 4px; align-items: center; margin: 0; padding: 4px 8px; border: 1px solid var(--linie); border-radius: 16px; font-size: .9rem; }
+.leer { color: var(--muted); }
+.warnung { background: var(--warn-bg); color: var(--warn-fg); padding: 8px 12px; border-radius: 8px; margin: 8px 0; }
+.karte { background: var(--karte); border: 1px solid var(--linie); border-radius: 12px; padding: 12px; margin: 10px 0; }
+table { border-collapse: collapse; width: 100%; }
+.plan td { border-bottom: 1px solid var(--linie); padding: 8px 4px; vertical-align: top; }
+.plan .datum { white-space: nowrap; width: 1%; color: var(--muted); }
+.plan .werkzeug { width: 1%; white-space: nowrap; }
+.plan .werkzeug select { width: 2.4em; padding: 3px; }
+.plan tr.rest strong { color: var(--muted); font-weight: normal; }
+.plan tr.trenner td { border-bottom: 2px solid var(--primaer); padding: 0; }
+.alt { font-size: .85rem; color: var(--muted); margin-top: 4px; }
+.badge { font-size: .7rem; padding: 1px 6px; border-radius: 8px; border: 1px solid currentColor; white-space: nowrap; }
+.badge.veg { color: var(--veg); } .badge.arab { color: var(--arab); } .badge.at { color: var(--at); } .badge.suess { color: var(--suess); }
+ul.einkauf, ul.gerichte { list-style: none; padding: 0; margin: 0; }
+ul.einkauf li { border-bottom: 1px solid var(--linie); padding: 6px 0; }
+ul.einkauf label { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; margin: 0; }
+ul.einkauf input { transform: scale(1.3); }
+ul.einkauf .menge { font-weight: 600; min-width: 4.5em; }
+ul.einkauf small { color: var(--muted); width: 100%; padding-left: 28px; }
+ul.einkauf li.erledigt { opacity: .5; } ul.einkauf li.erledigt label { text-decoration: line-through; }
+ul.gerichte li { border-bottom: 1px solid var(--linie); padding: 8px 0; }
+summary { cursor: pointer; }
+.scroll { overflow-x: auto; }
+.anwesenheit th, .anwesenheit td { padding: 4px 6px; text-align: center; border-bottom: 1px solid var(--linie); }
+.anwesenheit td:first-child { text-align: left; white-space: nowrap; }
+#gericht-suche { width: 100%; }
+#toast { position: fixed; bottom: 80px; left: 50%; transform: translateX(-50%); background: var(--fg); color: var(--bg); padding: 8px 16px; border-radius: 8px; }
+button.bring { background: #e8423f; color: #fff; border-color: #e8423f; }

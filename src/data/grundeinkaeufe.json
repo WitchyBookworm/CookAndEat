@@ -1,0 +1,352 @@
+[
+ {
+  "name": "Milch",
+  "menge": 5,
+  "einheit": "l",
+  "abteilung": "Kühlregal",
+  "rhythmus": "jeder Einkauf"
+ },
+ {
+  "name": "Joghurt",
+  "menge": 3,
+  "einheit": "Becher",
+  "abteilung": "Kühlregal",
+  "rhythmus": "wöchentlich"
+ },
+ {
+  "name": "Sauerrahm",
+  "menge": 2,
+  "einheit": "Becher",
+  "abteilung": "Kühlregal",
+  "rhythmus": "wöchentlich"
+ },
+ {
+  "name": "Butter",
+  "menge": 10,
+  "einheit": "Stk",
+  "abteilung": "Kühlregal",
+  "rhythmus": "monatlich"
+ },
+ {
+  "name": "Mozzarella",
+  "menge": 2,
+  "einheit": "Stk",
+  "abteilung": "Kühlregal",
+  "rhythmus": "wöchentlich"
+ },
+ {
+  "name": "Butterkäse (Block)",
+  "menge": 1,
+  "einheit": "Stk",
+  "abteilung": "Kühlregal",
+  "rhythmus": "14-tägig"
+ },
+ {
+  "name": "Edelschimmelkäse",
+  "menge": 1,
+  "einheit": "Stk",
+  "abteilung": "Kühlregal",
+  "rhythmus": "wöchentlich"
+ },
+ {
+  "name": "Pere St Michel",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Kühlregal",
+  "rhythmus": "14-tägig"
+ },
+ {
+  "name": "Speisetopfen",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Kühlregal",
+  "rhythmus": "14-tägig"
+ },
+ {
+  "name": "Schinkenaufschnitt",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Fleisch & Fisch",
+  "rhythmus": "jeder Einkauf"
+ },
+ {
+  "name": "Salami",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Fleisch & Fisch",
+  "rhythmus": "wöchentlich"
+ },
+ {
+  "name": "Hühnerfleisch",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Fleisch & Fisch",
+  "rhythmus": "14-tägig"
+ },
+ {
+  "name": "Faschiertes (600–700 g)",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Fleisch & Fisch",
+  "rhythmus": "wöchentlich"
+ },
+ {
+  "name": "Fisch (TK)",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Tiefkühl",
+  "rhythmus": "14-tägig"
+ },
+ {
+  "name": "Mehl",
+  "menge": 1,
+  "einheit": "kg",
+  "abteilung": "Trockenwaren",
+  "rhythmus": "jeder Einkauf"
+ },
+ {
+  "name": "Grieß",
+  "menge": 0.5,
+  "einheit": "kg",
+  "abteilung": "Trockenwaren",
+  "rhythmus": "monatlich"
+ },
+ {
+  "name": "Semmelbrösel",
+  "menge": 0.5,
+  "einheit": "kg",
+  "abteilung": "Trockenwaren",
+  "rhythmus": "monatlich"
+ },
+ {
+  "name": "Semmelwürfel",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Trockenwaren",
+  "rhythmus": "monatlich"
+ },
+ {
+  "name": "Speiseöl",
+  "menge": 1,
+  "einheit": "l",
+  "abteilung": "Sonstiges",
+  "rhythmus": "wöchentlich"
+ },
+ {
+  "name": "Olivenöl",
+  "menge": 1,
+  "einheit": "l",
+  "abteilung": "Sonstiges",
+  "rhythmus": "2-monatlich"
+ },
+ {
+  "name": "Klopapier",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Drogerie",
+  "rhythmus": "wöchentlich"
+ },
+ {
+  "name": "Küchenrolle",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Drogerie",
+  "rhythmus": "14-tägig"
+ },
+ {
+  "name": "Schokolade",
+  "menge": 2,
+  "einheit": "Pkg",
+  "abteilung": "Sonstiges",
+  "rhythmus": "wöchentlich"
+ },
+ {
+  "name": "Äpfel",
+  "menge": 2,
+  "einheit": "kg",
+  "abteilung": "Obst & Gemüse",
+  "rhythmus": "wöchentlich"
+ },
+ {
+  "name": "Bananen",
+  "menge": 5,
+  "einheit": "Stk",
+  "abteilung": "Obst & Gemüse",
+  "rhythmus": "wöchentlich"
+ },
+ {
+  "name": "Mandarinen",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Obst & Gemüse",
+  "rhythmus": "wöchentlich"
+ },
+ {
+  "name": "Trauben",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Obst & Gemüse",
+  "rhythmus": "wöchentlich"
+ },
+ {
+  "name": "Beeren (Erd-, Him-, Heidelbeeren)",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Obst & Gemüse",
+  "rhythmus": "wöchentlich"
+ },
+ {
+  "name": "Orangen",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Obst & Gemüse",
+  "rhythmus": "wöchentlich"
+ },
+ {
+  "name": "Datteln",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Obst & Gemüse",
+  "rhythmus": "monatlich"
+ },
+ {
+  "name": "Zwiebeln (2-kg-Pkg)",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Obst & Gemüse",
+  "rhythmus": "14-tägig"
+ },
+ {
+  "name": "Kartoffeln",
+  "menge": 2,
+  "einheit": "kg",
+  "abteilung": "Obst & Gemüse",
+  "rhythmus": "wöchentlich"
+ },
+ {
+  "name": "Knoblauch",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Obst & Gemüse",
+  "rhythmus": "monatlich"
+ },
+ {
+  "name": "Salatherzen",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Obst & Gemüse",
+  "rhythmus": "wöchentlich"
+ },
+ {
+  "name": "Gurke",
+  "menge": 1,
+  "einheit": "Stk",
+  "abteilung": "Obst & Gemüse",
+  "rhythmus": "jeder Einkauf"
+ },
+ {
+  "name": "Karfiol",
+  "menge": 1,
+  "einheit": "Stk",
+  "abteilung": "Obst & Gemüse",
+  "rhythmus": "14-tägig"
+ },
+ {
+  "name": "Brokkoli",
+  "menge": 1,
+  "einheit": "Stk",
+  "abteilung": "Obst & Gemüse",
+  "rhythmus": "monatlich"
+ },
+ {
+  "name": "Lauch",
+  "menge": 1,
+  "einheit": "Stk",
+  "abteilung": "Obst & Gemüse",
+  "rhythmus": "monatlich"
+ },
+ {
+  "name": "Zucchini",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Obst & Gemüse",
+  "rhythmus": "14-tägig"
+ },
+ {
+  "name": "Melanzani",
+  "menge": 1,
+  "einheit": "Stk",
+  "abteilung": "Obst & Gemüse",
+  "rhythmus": "14-tägig"
+ },
+ {
+  "name": "Paprika",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Obst & Gemüse",
+  "rhythmus": "14-tägig"
+ },
+ {
+  "name": "Tomaten",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Obst & Gemüse",
+  "rhythmus": "wöchentlich"
+ },
+ {
+  "name": "Zitronen",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Obst & Gemüse",
+  "rhythmus": "14-tägig"
+ },
+ {
+  "name": "Blätterteig",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Brot & Gebäck",
+  "rhythmus": "14-tägig"
+ },
+ {
+  "name": "Schwarzbrot",
+  "menge": 0.5,
+  "einheit": "kg",
+  "abteilung": "Brot & Gebäck",
+  "rhythmus": "wöchentlich"
+ },
+ {
+  "name": "Vollkorntoast",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Brot & Gebäck",
+  "rhythmus": "monatlich"
+ },
+ {
+  "name": "Orangensaft (1 l)",
+  "menge": 6,
+  "einheit": "Pkg",
+  "abteilung": "Getränke",
+  "rhythmus": "14-tägig"
+ },
+ {
+  "name": "Mineralwasser (6er-Tragerl)",
+  "menge": 1,
+  "einheit": "Tragerl",
+  "abteilung": "Getränke",
+  "rhythmus": "14-tägig"
+ },
+ {
+  "name": "Ovomaltine",
+  "menge": 1,
+  "einheit": "Pkg",
+  "abteilung": "Getränke",
+  "rhythmus": "2-monatlich"
+ },
+ {
+  "name": "Weißwein",
+  "menge": 1,
+  "einheit": "l",
+  "abteilung": "Getränke",
+  "rhythmus": "monatlich"
+ }
+]

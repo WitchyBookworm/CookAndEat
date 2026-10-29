@@ -1,0 +1,37 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function angemeldet() { return request.auth != null; }
+    function mitglied(haushaltId) {
+      return angemeldet()
+        && request.auth.uid in get(/databases/$(database)/documents/haushalte/$(haushaltId)).data.mitgliederUids;
+    }
+
+    // Jede Person sieht und ändert nur ihr eigenes Profil (enthält die Haushalts-ID)
+    match /benutzer/{uid} {
+      allow read, write: if angemeldet() && request.auth.uid == uid;
+    }
+
+    // Exporte für den Bring!-Import: nur anlegen, lesen nur über die Cloud Function
+    match /bringExporte/{token} {
+      allow create: if mitglied(request.resource.data.haushaltId)
+        && request.resource.data.erstellt == request.time;
+      allow read, update, delete: if false;
+    }
+
+    match /haushalte/{haushaltId} {
+      allow create: if angemeldet() && request.resource.data.mitgliederUids == [request.auth.uid];
+      allow read: if mitglied(haushaltId);
+      // Beitreten mit Code: nur die eigene UID darf ergänzt werden
+      allow update: if mitglied(haushaltId)
+        || (angemeldet()
+            && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['mitgliederUids'])
+            && request.resource.data.mitgliederUids.toSet().difference(resource.data.mitgliederUids.toSet()) == [request.auth.uid].toSet());
+
+      match /daten/{key} {
+        allow read, write: if mitglied(haushaltId);
+      }
+    }
+  }
+}

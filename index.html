@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>CookAndEat</title>
+  <meta name="description" content="Monatsspeiseplan und Einkaufslisten für die Familie">
+  <meta name="theme-color" content="#2f5597">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <header><h1>CookAndEat</h1></header>
+  <main><p class="leer">Lade …</p></main>
+  <nav>
+    <button data-tab="plan">🗓<span>Plan</span></button>
+    <button data-tab="einkauf">🛒<span>Einkauf</span></button>
+    <button data-tab="familie">👪<span>Familie</span></button>
+    <button data-tab="gerichte">🍲<span>Gerichte</span></button>
+    <button data-tab="einstellungen">⚙<span>Mehr</span></button>
+  </nav>
+  <div id="toast" role="status" hidden></div>
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>
