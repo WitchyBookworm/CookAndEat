@@ -1,9 +1,10 @@
 import { erzeugeMonatsplan, pruefePlan, alternativeFuer, lehntAb, anwesende, parseDatum, isoDatum } from './planner.js';
-import { erzeugeEinkaufslisten, ABTEILUNGEN } from './shopping.js';
+import { erzeugeEinkaufslisten, ABTEILUNGEN, RHYTHMEN } from './shopping.js';
 import { erzeugeStore } from './store.js';
 
 const WOCHENTAGE = ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'];
 const MONATE = ['Jänner', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
+const RHYTHMUS_LABEL = { 'jeder Einkauf': 'Bei jedem Einkauf (2× pro Woche)', 'wöchentlich': 'Einmal pro Woche', '14-tägig': 'Alle 2 Wochen', 'monatlich': 'Einmal im Monat', '2-monatlich': 'Alle 2 Monate' };
 const MERKMALE = { fisch: 'Fisch', arabisch: 'arabisch', oesterreichisch: 'österreichisch', suess_mit_suppe: 'süß + Suppe', vegetarisch: 'vegetarisch' };
 
 const store = erzeugeStore();
@@ -83,7 +84,12 @@ async function ladeStammdaten() {
   }
   zustand.gerichte = gerichte;
   zustand.mitglieder = (await store.get('mitglieder')) ?? [];
-  zustand.grundeinkaeufe = (await store.get('grundeinkaeufe')) ?? [];
+  let grund = await store.get('grundeinkaeufe');
+  if (!grund) {
+    grund = await (await fetch('src/data/grundeinkaeufe.json')).json();
+    await store.set('grundeinkaeufe', grund);
+  }
+  zustand.grundeinkaeufe = grund;
   zustand.einstellungen = { einkaufstage: [1, 4], ...((await store.get('einstellungen')) ?? {}) };
   store.watch('gerichte', (v) => v && ((zustand.gerichte = v), render()));
   store.watch('mitglieder', (v) => ((zustand.mitglieder = v ?? []), render()));
@@ -287,8 +293,8 @@ function ansichtEinstellungen() {
   return `
     <h2>Einkaufstage</h2><div class="chips">${tage}</div>
     <h2>Grundeinkäufe</h2>
-    <label>Bei jedem Einkauf<textarea rows="6" id="grund-jeder">${esc(zeile('jeder Einkauf'))}</textarea></label>
-    <label>Einmal pro Woche<textarea rows="6" id="grund-woche">${esc(zeile('wöchentlich'))}</textarea></label>
+    <p><small>Eine Zeile pro Artikel: „Menge Einheit Name | Abteilung"</small></p>
+    ${RHYTHMEN.map((r, i) => `<label>${RHYTHMUS_LABEL[r]}<textarea rows="5" id="grund-${i}">${esc(zeile(r))}</textarea></label>`).join('')}
     <button class="primaer" data-aktion="grund-speichern">Grundeinkäufe speichern</button>
     <h2>Haushalt</h2>
     ${store.modus === 'firebase'
@@ -458,8 +464,8 @@ const AKTIONEN = {
     if (zustand.plan) await speicherePlan(zustand.plan);
   },
   async 'grund-speichern'() {
-    const lies = (id, rhythmus) => $(id).value.split('\n').map(parseZutatZeile).filter(Boolean).map((z) => ({ ...z, rhythmus }));
-    await store.set('grundeinkaeufe', [...lies('#grund-jeder', 'jeder Einkauf'), ...lies('#grund-woche', 'wöchentlich')]);
+    const lies = (i, rhythmus) => $(`#grund-${i}`).value.split('\n').map(parseZutatZeile).filter(Boolean).map((z) => ({ ...z, rhythmus }));
+    await store.set('grundeinkaeufe', RHYTHMEN.flatMap((r, i) => lies(i, r)));
     if (zustand.plan) await speicherePlan(zustand.plan);
     toast('Grundeinkäufe gespeichert');
   },

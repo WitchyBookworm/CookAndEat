@@ -1,4 +1,4 @@
-import { isoDatum, parseDatum } from './planner.js';
+import { parseDatum } from './planner.js';
 
 // Einkaufslisten: pro Einkaufstag die Zutaten aller Gerichte bis zum nächsten
 // Einkauf plus die Grundeinkäufe, nach Abteilung sortiert und zusammengerechnet.
@@ -24,6 +24,31 @@ function abteilungsIndex(a) {
   return i === -1 ? ABTEILUNGEN.length : i;
 }
 
+export const RHYTHMEN = ['jeder Einkauf', 'wöchentlich', '14-tägig', 'monatlich', '2-monatlich'];
+
+// ISO-Kalenderwoche, damit 14-tägige Artikel über Monatsgrenzen im Takt bleiben
+export function kalenderwoche(d) {
+  const x = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+  const tag = x.getUTCDay() || 7;
+  x.setUTCDate(x.getUTCDate() + 4 - tag);
+  const jahresbeginn = new Date(Date.UTC(x.getUTCFullYear(), 0, 1));
+  return Math.ceil(((x - jahresbeginn) / 86400000 + 1) / 7);
+}
+
+// g/kg und ml/l zusammenführen, damit z. B. Mehl nur einmal auf der Liste steht
+const BASIS = { kg: ['g', 1000], g: ['g', 1], l: ['ml', 1000], ml: ['ml', 1] };
+
+function normiert(menge, einheit) {
+  const [e, f] = BASIS[einheit] ?? [einheit, 1];
+  return [menge * f, e];
+}
+
+function lesbar(menge, einheit) {
+  if (einheit === 'g' && menge >= 1000) return [menge / 1000, 'kg'];
+  if (einheit === 'ml' && menge >= 1000) return [menge / 1000, 'l'];
+  return [menge, einheit];
+}
+
 function runden(menge) {
   return Math.round(menge * 100) / 100;
 }
@@ -32,7 +57,7 @@ function runden(menge) {
  * @param {object} p
  * @param {object} p.plan Ergebnis von erzeugeMonatsplan
  * @param {Array} p.gerichte Katalog mit zutaten [{name, menge, einheit, abteilung}] für 6 Portionen
- * @param {Array} [p.grundeinkaeufe] [{name, menge, einheit, abteilung, rhythmus: 'jeder Einkauf' | 'wöchentlich'}]
+ * @param {Array} [p.grundeinkaeufe] [{name, menge, einheit, abteilung, rhythmus}], rhythmus aus RHYTHMEN
  * @param {number[]} [p.einkaufstage] Wochentage (Date.getDay), Standard Montag + Donnerstag
  */
 export function erzeugeEinkaufslisten({ plan, gerichte, grundeinkaeufe = [], einkaufstage = [1, 4] }) {
@@ -46,16 +71,41 @@ export function erzeugeEinkaufslisten({ plan, gerichte, grundeinkaeufe = [], ein
     .filter(({ i, tag }) => i === 0 || einkaufstage.includes(tag))
     .map(({ i }) => i);
 
-  const wochentlichSchonIn = new Set();
+  // Grundeinkäufe kommen nur auf Listen echter Einkaufstage; die Rhythmen
+  // greifen jeweils beim ersten Einkauf der Woche bzw. des Monats.
+  const echteEinkaeufe = startIndizes.filter((i) => einkaufstage.includes(parseDatum(tage[i].datum).getDay()));
+  const ersterDerWoche = new Set();
+  const gesehen = new Set();
+  for (const i of echteEinkaeufe) {
+    const kw = kalenderwoche(parseDatum(tage[i].datum));
+    if (!gesehen.has(kw)) ersterDerWoche.add(i);
+    gesehen.add(kw);
+  }
+  const ersterDesMonats = echteEinkaeufe[0];
+  const monat = parseDatum(tage[0].datum).getMonth() + 1;
+
+  const faellig = (rhythmus, start) => {
+    if (!echteEinkaeufe.includes(start)) return false;
+    const kw = kalenderwoche(parseDatum(tage[start].datum));
+    switch (rhythmus) {
+      case 'wöchentlich': return ersterDerWoche.has(start);
+      case '14-tägig': return ersterDerWoche.has(start) && kw % 2 === 1;
+      case 'monatlich': return start === ersterDesMonats;
+      case '2-monatlich': return start === ersterDesMonats && monat % 2 === 1;
+      default: return true;
+    }
+  };
+
   return startIndizes.map((start, n) => {
     const ende = n + 1 < startIndizes.length ? startIndizes[n + 1] : tage.length;
     const abschnitt = tage.slice(start, ende);
     const positionen = new Map();
 
     const hinzu = (z, faktor, quelle) => {
-      const key = `${z.name.toLowerCase()}|${z.einheit}`;
-      const p = positionen.get(key) ?? { name: z.name, menge: 0, einheit: z.einheit, abteilung: z.abteilung ?? 'Sonstiges', quellen: [], erledigt: false };
-      p.menge += (z.menge ?? 0) * faktor;
+      const [menge, einheit] = normiert(z.menge ?? 0, z.einheit);
+      const key = `${z.name.toLowerCase()}|${einheit}`;
+      const p = positionen.get(key) ?? { name: z.name, menge: 0, einheit, abteilung: z.abteilung ?? 'Sonstiges', quellen: [], erledigt: false };
+      p.menge += menge * faktor;
       if (quelle && !p.quellen.includes(quelle)) p.quellen.push(quelle);
       positionen.set(key, p);
     };
@@ -74,23 +124,15 @@ export function erzeugeEinkaufslisten({ plan, gerichte, grundeinkaeufe = [], ein
       }
     }
 
-    const montag = (iso) => {
-      const x = parseDatum(iso);
-      x.setDate(x.getDate() - ((x.getDay() + 6) % 7));
-      return isoDatum(x);
-    };
-    const woche = montag(tage[start].datum);
     for (const g of grundeinkaeufe) {
-      if (g.rhythmus === 'wöchentlich') {
-        const key = `${woche}|${g.name}`;
-        if (wochentlichSchonIn.has(key)) continue;
-        wochentlichSchonIn.add(key);
-      }
-      hinzu(g, 1, 'Grundeinkauf');
+      if (faellig(g.rhythmus, start)) hinzu(g, 1, `Grundeinkauf (${g.rhythmus})`);
     }
 
     const liste = [...positionen.values()]
-      .map((p) => ({ ...p, menge: runden(p.menge) }))
+      .map((p) => {
+        const [menge, einheit] = lesbar(p.menge, p.einheit);
+        return { ...p, menge: runden(menge), einheit };
+      })
       .sort((a, b) => abteilungsIndex(a.abteilung) - abteilungsIndex(b.abteilung) || a.name.localeCompare(b.name, 'de'));
 
     return {
