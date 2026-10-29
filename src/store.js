@@ -124,6 +124,16 @@ export class FirebaseStore {
     this.haushaltId = code.trim();
   }
 
+  // Legt einen Export für den Bring!-Import an und liefert die öffentliche,
+  // nicht erratbare Adresse, die die Cloud Function ausliefert.
+  async bringExport(titel, positionen) {
+    const { fs, db } = this;
+    const bytes = crypto.getRandomValues(new Uint8Array(18));
+    const token = btoa(String.fromCharCode(...bytes)).replace(/\+/g, '-').replace(/\//g, '_');
+    await fs.setDoc(fs.doc(db, 'bringExporte', token), { haushaltId: this.haushaltId, titel, positionen, erstellt: fs.serverTimestamp() });
+    return `${location.origin}/bring/${token}`;
+  }
+
   #ref(key) {
     return this.fs.doc(this.db, 'haushalte', this.haushaltId, 'daten', key);
   }

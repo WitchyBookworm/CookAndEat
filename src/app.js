@@ -199,6 +199,7 @@ function ansichtEinkauf() {
   const reihenfolge = [...gruppen.keys()].sort((a, b) => ABTEILUNGEN.indexOf(a) - ABTEILUNGEN.indexOf(b));
   return `
     <div class="leiste"><select data-aktion="liste-waehlen">${auswahl}</select><span>${offen} offen</span></div>
+    <div class="aktionen"><button class="bring" data-aktion="bring-export">In Bring! übernehmen</button></div>
     <form class="zeile" data-aktion="extra-hinzu">
       <input name="text" placeholder="Etwas ergänzen, z. B. 2 Stk Zitronen | Obst & Gemüse" required>
       <button class="primaer">+</button>
@@ -408,6 +409,20 @@ const AKTIONEN = {
   },
   async abhaken(el) {
     await store.patch(`liste_${zustand.listeId}`, `erledigt.${el.dataset.key}`, el.checked);
+  },
+  // Offizieller Bring!-Import: offene Positionen als Rezeptseite bereitstellen
+  // und den Bring!-Deeplink öffnen (Bring! fragt dann, in welche Liste).
+  async 'bring-export'(el) {
+    if (store.modus !== 'firebase') return toast('Bring!-Import braucht Firebase (siehe README)');
+    const { liste } = zustand;
+    const offen = [...liste.positionen, ...(liste.extra ?? [])]
+      .filter((p) => !liste.erledigt?.[schluessel(p)])
+      .map(({ name, menge, einheit }) => ({ name, menge, einheit }));
+    if (!offen.length) return toast('Nichts mehr offen');
+    el.disabled = true;
+    const seite = await store.bringExport(`Einkauf ${datumLang(liste.von)}`, offen);
+    const q = new URLSearchParams({ url: seite, source: 'web', baseQuantity: '1', requestedQuantity: '1' });
+    location.href = `https://api.getbring.com/rest/bringrecipes/deeplink?${q}`;
   },
   async 'extra-hinzu'(form) {
     const z = parseZutatZeile(form.text.value);

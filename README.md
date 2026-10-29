@@ -9,6 +9,7 @@ Progressive Web App (PWA) für den monatlichen Familien-Speiseplan und zwei Eink
 - **Alternativen**: Lehnt eine anwesende Person das Tagesgericht ab, bleibt es im Plan, und die App schlägt für diese Person eine Alternative vor.
 - **Einkaufslisten**: An den Einkaufstagen (Standard Mo + Do) gibt es eine Liste mit allen Zutaten bis zum nächsten Einkauf und den Grundeinkäufen. Die Mengen sind zusammengerechnet und nach Abteilung sortiert. Gerechnet wird mit 6 Portionen pro Gericht (4 Personen + 2 zum Mitnehmen), Großmengengerichte zählen doppelt, Alternativen als Einzelportion.
 - **Gemeinsam abhaken**: Abgehakte Artikel sind sofort bei allen Familienmitgliedern abgehakt.
+- **Bring!-Import**: Knopf „In Bring! übernehmen“ übergibt die offenen Positionen über den offiziellen Bring!-Import (Deeplink + Rezeptseite nach schema.org). Bring! fragt anschließend, in welche Liste übernommen wird.
 - Plan als CSV exportieren (öffnet sich in Excel).
 
 ## Starten (Demo-Modus, ohne Firebase)
@@ -22,7 +23,7 @@ Ohne Firebase-Konfiguration speichert die App nur im Browser.
 
 ## Firebase einrichten (zum Teilen in der Familie)
 
-1. Auf <https://console.firebase.google.com> ein Projekt anlegen (der kostenlose Spark-Tarif reicht).
+1. Auf <https://console.firebase.google.com> ein Projekt anlegen. Für den Bring!-Import ist der Blaze-Tarif nötig (Cloud Function). Bei Familiennutzung bleibt er im kostenlosen Kontingent, ein Budget-Alarm von 1 € ist trotzdem empfehlenswert.
 2. **Authentication** → Anbieter **Google** aktivieren.
 3. **Firestore Database** anlegen (Region `europe-west3`, Produktionsmodus).
 4. Projekteinstellungen → **Web-App hinzufügen** und die Konfiguration in `src/firebase-config.js` eintragen.
@@ -31,7 +32,8 @@ Ohne Firebase-Konfiguration speichert die App nur im Browser.
    npm install -g firebase-tools
    firebase login
    firebase use --add          # Projekt auswählen
-   firebase deploy             # Sicherheitsregeln + Hosting
+   (cd functions && npm install)
+   firebase deploy             # Sicherheitsregeln, Hosting, Cloud Function
    ```
 6. Die angezeigte Adresse (`https://<projekt>.web.app`) in Chrome auf dem Android-Handy öffnen → Menü → **Zum Startbildschirm hinzufügen**.
 7. Die erste Person legt einen Haushalt an. Die anderen melden sich an und treten mit dem Einladungscode bei (zu finden unter „Mehr“).
@@ -45,6 +47,7 @@ Ohne Firebase-Konfiguration speichert die App nur im Browser.
 | `src/store.js` | Datenhaltung: `LocalStore` (Browser) und `FirebaseStore` (Firestore, Echtzeit) |
 | `src/app.js` | Oberfläche (Vanilla JS, ohne Build-Schritt) |
 | `src/data/gerichte.json` | Startkatalog: 76 Gerichte mit Kategorien, Merkmalen und Zutaten für 6 Portionen |
+| `functions/` | Cloud Function `bring`: Rezeptseite für den Bring!-Import |
 | `firestore.rules` | Zugriff nur für Mitglieder des eigenen Haushalts |
 | `docs/architektur.md` | Architektur und Designentscheidungen |
 | `tests/` | Unit-Tests (`node --test`) |

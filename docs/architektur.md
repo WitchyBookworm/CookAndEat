@@ -10,6 +10,7 @@
 | A4 | Listen familienintern teilen | Firebase Auth + Firestore mit Echtzeit-Listenern |
 | A5 | Anwesenheit pro Tag und Präferenzen pro Person | Familie-Ansicht; beeinflusst Auswahl und Alternativen |
 | A6 | Abgelehntes Gericht → Alternative für die Person | `alternativeFuer()` |
+| A8 | Einkaufsliste in Bring! übernehmen | Offizieller Bring!-Import über Deeplink, Cloud Function `bring` |
 | A7 | Mengen immer für 6 Portionen (4 + 2 Mitnahme) | Zutaten im Katalog sind für 6 Portionen angegeben |
 
 ## Komponenten
@@ -54,6 +55,16 @@ Abgehakte Positionen werden als einzelnes Feld (`erledigt.<schlüssel>`) aktuali
 5. Für jede anwesende Person, die das Tagesgericht ablehnt, wird eine Alternative gewählt. Bevorzugt werden Lieblingsgerichte und Gerichte derselben Kategorie.
 
 Ein Seed macht jeden Plan reproduzierbar. `pruefePlan()` prüft die harten Regeln, die Tests prüfen 50 Seeds und alle Monate 2027.
+
+## Bring!-Anbindung
+
+Bring! bietet keine offizielle Schreib-Schnittstelle für Drittanbieter-Apps. Offiziell vorgesehen ist der Rezept-Import. Dabei liest Bring! eine Webseite mit schema.org/Recipe-Markup und übernimmt deren Zutaten. Der Ablauf in CookAndEat:
+
+1. Tippt man „In Bring! übernehmen“, legt die App die offenen Positionen in `bringExporte/{token}` ab. Der Token ist zufällig (144 Bit). Lesen dürfen laut Sicherheitsregeln nur die Admin-Rechte der Cloud Function.
+2. Die Cloud Function `bring` liefert unter `/bring/{token}` eine Seite mit den Positionen als `recipeIngredient` aus. Nach 7 Tagen ist die Adresse ungültig.
+3. Die App öffnet `https://api.getbring.com/rest/bringrecipes/deeplink?url=…&source=web`. Bring! öffnet sich, liest die Seite und fragt, in welche Liste die Artikel kommen.
+
+Verworfen wurde die inoffizielle Bring!-API. Sie würde das Bring!-Passwort auf dem Server speichern, ist von Bring! nicht freigegeben und kann jederzeit ausfallen.
 
 ## Bewusste Vereinfachungen
 

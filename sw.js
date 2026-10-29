@@ -1,6 +1,6 @@
 // Service Worker: App-Dateien offline verfügbar machen (Network-first,
 // damit Updates sofort ankommen; ohne Netz aus dem Cache).
-const CACHE = 'cookandeat-v2';
+const CACHE = 'cookandeat-v3';
 const DATEIEN = ['./', 'index.html', 'manifest.webmanifest', 'src/app.js', 'src/planner.js', 'src/shopping.js', 'src/store.js', 'src/firebase-config.js', 'src/styles.css', 'src/data/gerichte.json', 'src/data/grundeinkaeufe.json', 'icons/icon-192.png'];
 
 self.addEventListener('install', (e) => e.waitUntil(caches.open(CACHE).then((c) => c.addAll(DATEIEN))));
